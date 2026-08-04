@@ -1,1 +1,0 @@
-import{h as n}from"./http-C_0mkbc2.js";function o(t){return t==null?"":String(t)}function a(t={}){const r=o(t.username).trim(),s=o(t.password);return n.post("/auth/login",{username:r,password:s})}function e(){return n.post("/auth/logout")}export{e as a,a as l};
